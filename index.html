@@ -5,8 +5,10 @@
 <head>
     <meta charset='UTF-8'>
     <title>Mini SPA</title>
-    <link rel='stylesheet' href='../css/estilo.css'>
+    <link rel='stylesheet' href='./style.css'>
     <style>
+
+
         nav {
             font-size: 2em;
         }
@@ -17,6 +19,15 @@
             color: black;
             padding: 0 10px;
         }
+
+        .pagina{
+            padding: 20px;
+        }
+
+        ul{
+            list-style-type: none;
+        }
+
     </style>
 </head>
 
@@ -39,7 +50,7 @@
                     }
                 })
         }
-
+          
 
         document.querySelectorAll('[wm-link]').forEach(link => {
             const url = link.attributes['wm-link'].value
